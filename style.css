@@ -788,7 +788,7 @@ input {
 .scroll div {
   background: #e0c63461;
   color: #0d0a07;
-  font-size: 3em;
+  font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 900;
@@ -898,6 +898,102 @@ input {
   z-index: 10;
   box-shadow:  0  10px 30px 0 rgba(13, 12, 12, 1.95);
 }
+.noticias4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(146, 123, 123);
+  width: 1100px;
+  height: 150px;
+  margin-left: 50px;
+  border-radius: 35px;
+  box-shadow: 0 10px 30px 0 rgba(233, 227, 227, 0.45);
+}
+.noticias4 img {
+  width: 200px;
+  height: 130px;
+  margin-left: 20px;
+  border-radius: 5px;
+  z-index: 10;
+  box-shadow:  0  10px 30px 0 rgba(13, 12, 12, 1.95);
+}
+.noticias5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(146, 123, 123);
+  width: 1100px;
+  height: 150px;
+  margin-left: 50px;
+  border-radius: 35px;
+  box-shadow: 0 10px 30px 0 rgba(233, 227, 227, 0.45);
+}
+.noticias5 img {
+  width: 200px;
+  height: 130px;
+  margin-left: 20px;
+  border-radius: 5px;
+  z-index: 10;
+  box-shadow:  0  10px 30px 0 rgba(13, 12, 12, 1.95);
+}
+.noticias6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(146, 123, 123);
+  width: 1100px;
+  height: 150px;
+  margin-left: 50px;
+  border-radius: 35px;
+  box-shadow: 0 10px 30px 0 rgba(233, 227, 227, 0.45);
+}
+.noticias6 img {
+  width: 200px;
+  height: 130px;
+  margin-left: 20px;
+  border-radius: 5px;
+  z-index: 10;
+  box-shadow:  0  10px 30px 0 rgba(13, 12, 12, 1.95);
+}
+.noticias7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(146, 123, 123);
+  width: 1100px;
+  height: 150px;
+  margin-left: 50px;
+  border-radius: 35px;
+  box-shadow: 0 10px 30px 0 rgba(233, 227, 227, 0.45);
+}
+.noticias7 img {
+  width: 200px;
+  height: 130px;
+  margin-left: 20px;
+  border-radius: 5px;
+  z-index: 10;
+  box-shadow:  0  10px 30px 0 rgba(13, 12, 12, 1.95);
+}
+.noticias8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(146, 123, 123);
+  width: 1100px;
+  height: 150px;
+  margin-left: 50px;
+  border-radius: 35px;
+  box-shadow: 0 10px 30px 0 rgba(233, 227, 227, 0.45);
+}
+.noticias8 img {
+  width: 200px;
+  height: 130px;
+  margin-left: 20px;
+  border-radius: 5px;
+  z-index: 10;
+  box-shadow:  0  10px 30px 0 rgba(13, 12, 12, 1.95);
+}
+
 /* ----------------------------------fim das noticias--------------------------------- */
 
 

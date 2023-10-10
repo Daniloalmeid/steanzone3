@@ -9,7 +9,6 @@
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link rel="stylesheet" href="links_html/slide.css">
-
     <!-- ----------------------------------------------------------------------------------------------- -->
 
 </head>
@@ -32,7 +31,19 @@
             <a href="/stenzone2/links menu/Plataformas1.html" style="--i:5;">Plataforma</a>
         </nav>
     </header>
-    <!-- aqui começa html do card -->
+    <section class="estilos">
+        <ul><br><br><br>
+            <li><a href="#" data-text="Ação"><img src="/imagens.img/c10.jpg" alt="">AÇÃO</a></li><br><br>
+            <li><a href="#" data-text="Aventura"><img src="/imagens.img/c11.jpg" alt="">AVENTURA</a></li><br><br>
+            <li><a href="#" data-text="Corrida"><img src="/imagens.img/c12.jpg" alt="">CORRIDA</a></li><br><br>
+            <li><a href="#" data-text="Estratégia"><img src="/imagens.img/c13.jpg" alt="">ESTARTÉGIA</a></li><br><br>
+            <li><a href="#" data-text="Rpg"><img src="/imagens.img/c14.jpg" alt="">RPG</a></li><br><br>
+            <li><a href="#" data-text="Esportes"><img src="/imagens.img/c15.jpg" alt="">ESPORTES</a></li>
+            <div class="cursor"></div>
+        </ul>
+        
+        <!-- aqui começa html do card -->
+    </section>
     
     <div class="destaquesdomes">
         <div class="social-icon">
@@ -43,7 +54,6 @@
             <a href="https://www.tiktok.com/@steanzonegames" target="_blank" ><i class='bx bxl-tiktok' ></i></a>
         </div>
 
-    
         <div class="box">
             <video src="https://www.deceit.gg/videos/hero-bg-launch.mp4" type="video/mp4" loop class="clip" ></video>
         </div>
@@ -639,7 +649,13 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="links_html/slide.js"></script>
-
+    <script>
+        let pos = document.documentElement;
+    pos.addEventListener("mousemove",e => {
+    pos.style.setProperty('--x',e.clientX + "px");
+    pos.style.setProperty('--y',e.clientY + "px");
+})    
+    </script>
     
 </body>
 </html>
